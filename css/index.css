@@ -1,0 +1,366 @@
+body{
+	width: auto;
+	height: auto;
+}
+.logo{
+	padding: 30px 0px;
+	margin-left: 10%;
+}
+.logo #start_logo{
+	position: absolute;
+	height: 65px;
+}
+.logo ul{
+	text-align: right;
+	list-style-type: none;
+    margin: 0;
+    margin-top: 10px;
+    padding: 5px 0px;
+    overflow: hidden;
+    margin-right: 10%;
+}
+.logo ul li{
+	border-left:1px solid red;
+	font-weight: 600;
+	font-family: 'Open Sans Condensed', sans-serif;
+	display: inline;
+	margin-left: 10px;
+	font-size: 16pt;
+	padding: 14px 16px;
+}
+.logo ul li img{
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+.logo ul li a{
+	text-decoration: none;
+	color:black;
+}
+.logo ul li #button_1:hover{
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    color: #0000FF;
+}
+.logo ul li a:hover{
+	color: red;
+}
+
+.menu{
+	width: auto;
+	background-color: #333;
+
+}
+#navigator{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-left: 10%;
+}
+#navigator li{
+	float: left;
+}
+#navigator li a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14pt;
+}
+#navigator li ul{
+	position:absolute; 
+}
+#navigator li a:hover {
+	position:relative;
+    background-color: #0000FF;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+header{
+	width: auto;
+	height: 400px;
+}
+header img{
+	width: 100%;
+	height: 400px;
+}
+.our_services{
+	width: 80%;
+	text-align: center;
+	margin-top: 10%;
+	margin-left: 10%;
+}
+.our_services p{
+	font-size: 25pt;
+}
+.our_services img{
+	margin-top: -1%;
+	width: 30%;
+}
+.application{
+	width: 80%;
+	margin-top: 3%;
+	margin-left: 10%;
+}
+.application table tr{
+	background-color: rgba(192,192,192, 0.15);
+	border-radius: 3em/5em;
+}
+.application table{
+	border-collapse: collapse;
+}
+.application table tr td{
+	text-align: center;
+	padding: 15px 15px;
+}
+.application table tr td img{
+	width: 200px;
+	height: 200px;
+	-moz-border-radius: 100px; /* закругление для старых Mozilla Firefox */
+	-webkit-border-radius: 100px; /* закругление для старых Chrome и Safari */
+    -khtml-border-radius:100px; /* закругл. для браузера Konquerer системы Linux */
+ 	border-radius: 100px; /* закругление углов для всех, кто понимает */
+ 	text-align: center;
+}
+.application table tr td b{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 20pt;
+}
+.application table tr td p{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 16pt;
+}
+.application table tr td a{
+	font-weight: 700;
+  	color: white;
+  	text-decoration: none;
+  	padding: 15px 20px;
+  	background: #696969;
+  	transition: 0.2s;
+  	font-family: 'Open Sans Condensed', sans-serif;
+  	font-size: 16pt;
+    
+}
+.application table tr td a:hover{
+	background-color: #0000FF;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+.mail{
+	width: 80%;
+	text-align: center;
+	margin-top: 10%;
+	margin-left: 10%;
+}
+.mail p{
+	font-size: 25pt;
+}
+.mail img{
+	margin-top: -1%;
+	width: 30%;
+}
+.mail .small{
+	font-size: 12pt;
+}
+.mail form table{
+	margin-left: 18%;
+	width: 80%;
+}
+.mail form table tr{
+	
+}
+.mail form table tr td input{
+	width: 80%;
+	height: 100%;
+	border: 2px solid black;
+	font-size:16pt;
+	text-align:center;
+}
+.mail form table tr td input:focus{
+	border: 2px solid #0000FF;
+}
+.mail form table tr td textarea{
+	margin-right: 30%;
+	border: 2px solid black;
+}
+.mail p input{
+  	color: white;
+  	padding: 15px 20px;
+  	background: #696969;
+  	transition: 0.2s;
+  	text-decoration: none;
+  	margin-top: -2%;
+  	font-family: 'Open Sans Condensed', sans-serif;
+  	font-size: 14pt;
+}
+.mail p input:hover{
+	background-color: #0000FF;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+
+.statistics{
+	width: 80%;
+	text-align: center;
+	margin-top: 10%;
+	margin-left: 10%;
+	background-color: rgba(192,192,192, 0.15);
+	border-radius: 18em 0.5em/5em 0.5em;
+}
+.statistics p{
+	font-size: 25pt;
+}
+.statistics img{
+	margin-top: -1%;
+	width: 30%;
+}
+.statistics table{
+	margin: auto;
+	margin-top: 5%;
+	width: 80%;
+	border-collapse: collapse;
+}
+.statistics table tr td{
+	padding: 10px 10px;
+	border: 1px solid black; 
+}
+.statistics table tr td img{
+	width: 50px;
+	height: 50px;
+}
+.big{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 20pt;
+}
+.small{
+	font-family: 'Open Sans Condensed', sans-serif;
+  	font-size: 16pt;
+}
+.end_jobs{
+	width: 80%;
+	text-align: center;
+	margin-top: 10%;
+	margin-left: 10%;
+}
+.end_jobs p{
+	font-size: 25pt;
+}
+.end_jobs img{
+	margin-top: -1%;
+	width: 30%;
+}
+.end_jobs table{
+	width: 100%;
+	margin-top: 3%;
+}
+.end_jobs table tr td{
+	width: 30%;
+}
+.end_jobs table tr td img{
+	width: 90%;
+	height: 200px;
+	margin: auto;
+}
+.end_jobs table tr td p{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12pt;
+	text-align: center;
+	width: 90%;
+}
+.end_jobs a{
+  	color: white;
+  	text-decoration: none;
+  	padding: 10px 20px;
+  	background: #696969;
+  	font-family: 'Open Sans Condensed', sans-serif;
+  	font-size: 16pt;
+    
+}
+.end_jobs a:hover{
+	background-color: #0000FF;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+footer{
+	margin-top: 2%;
+	width: 100%;
+	height: 300px;
+	background-color: #333;
+}
+footer .top{
+	width: 80%;
+	height: 70%;
+	margin-left: 10%;
+
+}
+footer .top table{
+	width: 100%;
+}
+footer .top table tr td p{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18pt;
+	color: #DCDCDC;
+}
+footer .top table tr td ul{
+	margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+footer .top table tr td ul li{
+	list-style: none;
+	text-align: left;
+	padding: 3px;
+}
+footer .top table tr td ul li a{
+	list-style: none;
+	text-align: left;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12pt;
+	color: #A9A9A9;
+	text-decoration: none;
+}
+footer .top table tr td ul li a:hover{
+	list-style: none;
+	text-align: left;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12pt;
+	transition: 0.3;
+	color: #F8F8FF;
+	text-decoration: underline;
+}
+footer hr{
+	width: 80%;
+	margin-left: 10%;
+}
+.bottom{
+	width: 80%;
+	margin-left: 10%;
+}
+.infologo{
+	margin-top: 1.5%;
+	text-align: center;
+	margin-right: 40%;
+}
+.infologo img{
+	position: absolute;
+	width: 150px;
+	height: 50px;
+}
+.infoleft{
+	width: 20%;
+	float:left;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12pt;
+	color: #DCDCDC;
+}
+
+.inforight{
+	width: 20%;
+	float:right;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12pt;
+	color: #DCDCDC;
+}
